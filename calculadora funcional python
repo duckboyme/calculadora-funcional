@@ -13,10 +13,11 @@ def exibe_menu():
         quadrado(l)
 
     elif opcao ==2:
-            base = float(input('digite a base'))
-            area = 1*1
-            print(f'a area do quadrado e:{area}')
-            triangular(base , altura)
+        base = float(input('digite a base'))
+        altura = 5
+        area = 1*1
+        print(f'a area do quadrado e:{area}')
+        triangular(base , altura)
     elif opcao ==3:
         pass
 def quadrado(l):
@@ -26,5 +27,5 @@ def triangulo(base, altura):
     area = (base* altura)/2
     print(f'a area do triangulo e: {area}')
 def retangulo(base, altura):
-    area = base*altura(print(f'a area do retangulo e:{area}'))  
-
+    area = base*altura
+    print(f'a area do retangulo e:{area}')
