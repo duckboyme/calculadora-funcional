@@ -1,0 +1,16 @@
+def exibe_menu():
+    print('--- CALCULADORA---')
+    print('''
+    1 - quadrado
+    2 - triangulo
+    3 - retangulo''')
+    opcao = int(input('digite uma opçao'))
+    if opcao == 1:
+        1 = float(input('digite o lado do quadrado:'))
+        quadrado(1)
+
+
+         def quadrado(1):
+            area = 1*1
+            print(f'a area do quadrado e:{area}')
+            exibe_menu()        
