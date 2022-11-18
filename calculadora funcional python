@@ -18,10 +18,13 @@ def exibe_menu():
             print(f'a area do quadrado e:{area}')
             triangular(base , altura)
     elif opcao ==3:
-def quadrado(l)
-            area =1+1
-            print(f'a area do quadrado e:{area}')
-
+        pass
+def quadrado(l):
+    area =1+1
+    print(f'a area do quadrado e:{area}')
 def triangulo(base, altura):
     area = (base* altura)/2
     print(f'a area do triangulo e: {area}')
+def retangulo(base, altura):
+    area = base*altura(print(f'a area do retangulo e:{area}'))  
+
